@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> HTML Tags </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<nav>
+			<a href="index.html">Home</a>  
+			<a href="page1.html"> Tags</a>  
+			<a href="page2.html"> History</a> 
+		</nav>
+		<section id="section1">
+			<div>
+				<section id="main">
+					<div>
+						<h1 id="head1"> ALL ABOUT HTML </h1>
+						<p id="p1"><strong>All About Hyper Text Markup Language <span>(HTML)</span>, Its History & Tags. </strong></p>
+					</div>
+				</section>
+			</div>
+		</section>
+		
+		<section id="section3">
+			<div>
+				<h1 id="head2"> ALL ABOUT HTML TAGS </h1>
+					<q> An HTML tag is commonly defined as a set of characters constituting a formatted command for a Web page. At the core of HTML, tags provide the directions or recipes for the visual content that one sees on the Web. </q>
+				<p>HTML tags include tags for references, tags for tables, tags for headlines or titles, etc. An HTML tag consists of the tag name in angular brackets and may come in pair, which makes up the beginning and ending tag that frame a particular piece of code, text or other tags. The beginning tag consists of the name, optionally followed by one or more attributes, whereas the ending tag consists of the same name preceded by a forward slash ("/"). For example, the HTML tag "&lt;p&gt;" begins a paragraph, whereas "&lt;/p&gt;" ends that paragraph. This is a consistent syntax in HTML.
+			
+				<div id="tablediv">
+				<h2 id="h2"> SUMMARY OF HTML TAGS: </h2>
+	<!-- Table-->
+					<table>
+						<tr>
+							<th> NAME </th>
+							<th> DESCRIPTION </th>
+							<th> EXAMPLE </th>
+							<th> SEMANTIC/NON-SEMANTIC</th>
+						</tr>
+						
+						<tr>
+							<td> &lt;p&gt; HTML Tag </td>
+							<td> Used in HTML to define a Paragraph. </td>
+							<td> &lt;p&gt; This is a Paragraph. &lt;/p&gt;
+								<strong>Output:</strong>This is a Paragraph.
+							</td>
+							<td rowspan="5"> Semantic </td>
+						</tr>
+						
+						<tr>
+							<td> &lt;video&gt; HTML Tag </td>
+							<td> The &lt;video&gt; element, which adds native video playback support to the HTML specification in HTML5, can be used to embed a video in an HTML document. Add the video URL to the element by using either the src attribute of the &lt;video&gt; element or by nesting one or more &lt;source&gt; elements between the opening and closing &lt;/video&gt; tags. </td>
+							<td> &lt;video&gt;<br />
+								&lt;source src="abc.mp4" type="video/mp4"/&gt; <br />
+								&lt;/video&gt;
+							</td>
+							
+						</tr>
+												
+						<tr>
+							<td> &lt;q&gt; HTML Tag </td>
+							<td> The &lt;q&gt; element is used to identify and inline quote that does not require paragraph breaks. Longer quotations that do require paragraph breaks should use the &lt;blockquote&gt; element. </td>
+							<td> &lt;q&gt; A quote &lt;/q&gt; <br />
+								<strong>Output:</strong> <q> A quote </q></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;progress&gt; HTML Tag </td>
+							<td> The &lt;progress&gt; element is used to create a progress bar to serve as a visual demonstration of progress towards the completion of task or goal. The max and value attributes are used to define how much progress (value) has been made towards task completion (max). </td>
+							<td> &lt;progress max="100" value="40"&gt; &lt;/progress&gt; 
+							<strong>Output:</strong><progress max="100" value="40"> </progress>
+							</td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;mark&gt; HTML Tag </td>
+							<td> The &lt;mark&gt; element is used to highlight text inside of another element such as a paragraph, list, or table. Text to which the &lt;mark&gt; element has been added is considered to be particularly relevant in a specific context. </td>
+							<td> &lt;mark&gt; mark &lt;/mark&gt; <br />
+							<strong>Output:</strong><mark>mark </mark>
+							</td>
+							
+						</tr>
+																		
+						<tr>
+							<td> &lt;hr&gt; HTML Tag </td>
+							<td> The &lt;hr&gt; element is used to represent a thematic break between paragraph-level elements. It is typically rendered as a horizontal line. </td>
+							<td> &lt;hr&gt; </td>
+							<td> Non-Semantic </td>
+						</tr>
+						
+						<tr>
+							<td> &lt;del&gt; HTML Tag </td>
+							<td> The &lt;del&gt; tag is used to identify text that has been deleted from a document but retained to show the history of modifications made to the document. Pair a &lt;del&gt; element with an &lt;ins&gt; element to identify the inserted text that replaced the deleted text. </td>
+							<td> &lt;del&gt; blue &lt;/del&gt;  <br/>
+							<strong>Output: </strong><del>blue</del></td>
+							<td rowspan="7"> Semantic </td>
+						</tr>
+						
+						<tr>
+							<td> &lt;ins&gt; HTML Tag </td>
+							<td> The &lt;ins&gt; element is used to identify text that has been inserted into a document. It is often paired with a &lt;del&gt; element which identifies deleted text replaced by the text contained in the &lt;ins&gt; element. </td>
+							<td> &lt;del&gt; blue &lt;/del&gt; &lt;ins&gt; red &lt;/ins&gt; <br />
+							<strong>Output: </strong><del>blue</del> <ins>red</ins></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;code&gt; HTML Tag </td>
+							<td> The &lt;code&gt; element is used to define enclosed text as computer code. It is often paired with the &lt;pre&gt; element to preserve line breaks and indentation when presenting blocks of computer code. </td>
+							<td> &lt;code&gt; html code &lt;/code&gt; 
+							<strong>Output: </strong><code> html code </code></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;small&gt; HTML Tag </td>
+							<td> The &lt;small&gt; element identifies text to display one size smaller than the surrounding text. In HTML5 the element is intended to be used to identify items of secondary importance such as copyright notices, side comments, and legal notices. </td>
+							<td> this is &lt;small&gt;small &lt;/small&gt;  <br />
+							<strong> Output: </strong> this is<small> small </small></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;base&gt; HTML Tag </td>
+							<td> The &lt;base&gt; element is used to identify a base URL upon which to build all relative URLs that appear on a webpage. In addition, if the &lt;base&gt; element has a target attribute, the target attribute will be used as the default attribute for all hyperlinks appearing in the document. </td>
+							<td> &lt;base href="" target="_blank"&gt; </td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;address&gt; HTML Tag </td>
+							<td> The &lt;address&gt; element identifies contact information relevant to the current site, page, document, section, or article. It should not be used to identify addresses in any other context. </td>
+							<td>&lt;address&gt; 314, Gulshan, Karachi. &lt;/address&gt; <br />
+							<strong> Output: </strong> <address> 314, Gulshan, Karachi.</address></td>
+						
+						</tr>
+						
+						<tr>
+							<td> &lt;a&gt; HTML Tag </td>
+							<td> The &lt;a&gt; element, or anchor element, it used to create a hyperlink to another webpage or another location within the same webpage. The hyperlink created by an anchor element is applied to the text, image, or other HTML content nested between the opening and closing &lt;a&gt; tags. </td>
+							<td> &lt;a href=""&gt; Click Here &lt;/a&gt; <br />
+							<strong> Output: </strong> <a href=""> Click Here </a></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;center&gt; HTML Tag </td>
+							<td> The &lt;center&gt; element was used to identify text that should be centered when rendered by a browser. However, the element has been deprecated, and the correct and modern way to center-align text is with CSS. </td>
+							<td> &lt;center&gt; this tag is non-semantic in html &lt;/center&gt; </td>
+							<td>Non-Semantic </td>
+						</tr>
+						
+						<tr>
+							<td> &lt;sub&gt; HTML Tag </td>
+							<td> The &lt;sub&gt; element is used to identify characters that should be rendered in a subscript position. The element should be used mark text according to typographical conventions and not stylistic purposes. Text that is to appear subscript for purely stylistic purposes should be styled with CSS. </td>
+							<td> H&lt;sub&gt;2 &lt;/sub&gt; O <br />
+							<strong> Output: </strong> H<sub>2</sub>O</td>
+							<td rowspan="3"> Semantic </td>
+						</tr>
+						
+						<tr>
+							<td> &lt;sup&gt; HTML Tag </td>
+							<td> The &lt;sup&gt; tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font.  </td>
+							<td> 2&lt;sup&gt;nth &lt;/sup&gt;  <br />
+							<strong> Output: </strong> 2<sup>nth</sup></td>
+							
+						</tr>
+						
+						<tr>
+							<td> &lt;kbd&gt; HTML Tag </td>
+							<td> The &lt;kbd&gt; element is used to identify text that represents user keyboard input. Text surrounded by &lt;kbd&gt; tags is typically displayed in the browser's default monospace font. </td>
+							<td> &lt;kbd&gt; keyboard keywords &lt;/kbd&gt; <br />
+							<strong> Output: </strong> <kbd>keyboard keywords</kbd></td>
+						</tr>
+						
+						
+							
+							
+					</table>
+					
+				</div>
+				
+	<!-- Details & Summary-->
+				<details>
+							<summary> Nesting Lists </summary>
+								<p>Nesting Lists with &lt;ul&gt;, &lt;ol&gt; and &lt;li&gt;
+								 The nesting lists as its name suggests are nesting of lists, meaning lists within lists.
+								<br />
+									<strong>Output: </strong> </p>
+	<!-- Nesting Lists-->
+									<ul> 
+										<li> List 1 
+											<ul> 
+												<li> List 2
+													<ol>
+														<li> List 3 </li>
+													</ol>
+												</li>
+											</ul>
+										</li>
+									</ul>
+						</details>		
+						
+						<!--<h2> PSEUDO SELECTORS </h2>
+							<p> Pseudo selectors, are generally used for css to style that particular/specific paragraph or sentence. To specify paragraphs into different styles we use pseudo selectors. </p>
+							<p> Can be defined by numbers <strong> For Example: </strong</p>
+								<p> Pseudo Selector by Number1 </p>
+								<p> Pseudo Selector by Number2 </p>
+								<p> Pseudo Selector by Number3 </p>-->
+								
+							
+			
+			</div>
+		</section>
+		
+		<footer>
+		Copyright@Khairunnisa
+		</footer>
+		
+	</body>
+</html>
